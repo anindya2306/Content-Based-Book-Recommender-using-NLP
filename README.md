@@ -17,22 +17,8 @@ A book recommendation system that harnesses the power of Neural Collaborative Fi
 
 - The NCF model captures the latent factors from implicit user-book interactions.
 - Content-based filtering uses keyBert, TF-IDF and cosine similarity to recommend books similar to a given book.
-- Hybrid recommendation combines both the NCF and content-based approaches to provide a comprehensive set of suggestions.
+- Hybrid recommendation combines both the NCF and content-based increase reliability.
 
-### Usage
-
-```python
-from deepbookrecommender import HybridRecommender
-
-# Initialize the model
-recommender = HybridRecommender(ncf_model_path='path_to_ncf_model', content_model_path='path_to_content_model')
-
-# Get hybrid recommendations for a user
-recommended_books = recommender.hybrid_recommend(user_id)
-
-# Get book recommendations based on a text query
-query_books = recommender.recommend_from_query("Historical fiction set during World War II")
-```
 
 ### Citing
 
