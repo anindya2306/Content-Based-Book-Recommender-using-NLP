@@ -1,6 +1,6 @@
 ---
 
-## Neural Collaborative Filtering Model with Content-based Support
+## DL based Collaborative Filtering Model with Content-based Support
 
 ### Overview
 
